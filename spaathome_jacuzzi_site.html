@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Jacuzzi Rentals - Abu Dhabi & Dubai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Luxury Jacuzzi Rentals</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#packs">Packages</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="javascript:changeLanguage('ar')">Arabic</a></li>
+                    <li><a href="javascript:changeLanguage('en')">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Relax in Style with Our Jacuzzi Rentals</h2>
+            <p>Delivery and installation at your doorstep in Abu Dhabi & Dubai</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </section>
+
+        <section id="gallery">
+            <h3>Gallery</h3>
+            <div class="gallery-item">
+                <img src="images/jacuzzi-modern-apartment.jpg" alt="Modern apartment with jacuzzi and stylish decor">
+                <p>Experience luxury with our jacuzzis in modern apartments.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/jacuzzi-outdoor-setup.jpg" alt="Outdoor jacuzzi setup with beautiful decorations">
+                <p>Enjoy the outdoors with our beautifully decorated setups.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/jacuzzi-cozy-interior.jpg" alt="Cozy interior with a jacuzzi and warm lighting">
+                <p>Create a cozy ambiance with our warm-lit jacuzzis.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h3>Our Services</h3>
+            <div class="service-item">
+                <h4>Wide Range of Jacuzzis</h4>
+                <p>Choose from various sizes and models to suit your needs.</p>
+            </div>
+            <div class="service-item">
+                <h4>Home Delivery</h4>
+                <p>We deliver directly to your home in Abu Dhabi & Dubai.</p>
+            </div>
+            <div class="service-item">
+                <h4>Professional Installation</h4>
+                <p>Our team ensures quick and safe installation.</p>
+            </div>
+        </section>
+
+        <section id="packs">
+            <h3>Our Packages</h3>
+            <div class="pack-item">
+                <h4>Premier Pack</h4>
+                <p>Price: 369 AED</p>
+                <p>Duration: 24 hours</p>
+                <p>Enjoy a luxurious jacuzzi experience for a full day, delivered and installed at your convenience.</p>
+            </div>
+            <div class="pack-item">
+                <h4>Deluxe Pack</h4>
+                <p>Price: 599 AED</p>
+                <p>Duration: 48 hours</p>
+                <p>Upgrade to our deluxe pack for an extended relaxation experience.</p>
+            </div>
+            <div class="pack-item">
+                <h4>Weekend Pack</h4>
+                <p>Price: 899 AED</p>
+                <p>Duration: 72 hours</p>
+                <p>Perfect for a weekend getaway in the comfort of your home.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h3>About Us</h3>
+            <p>Luxury Jacuzzi Rentals is your go-to provider for high-quality jacuzzi experiences in Abu Dhabi and Dubai. Our mission is to bring relaxation and luxury directly to your home with hassle-free service.</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <p>Have questions or want to book a jacuzzi? Get in touch!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Luxury Jacuzzi Rentals. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function changeLanguage(lang) {
+            if (lang === 'ar') {
+                document.body.dir = "rtl";
+                document.body.innerHTML = `
+                    <header>
+                        <div class="header-container">
+                            <h1>تأجير الجاكوزي الفاخر</h1>
+                            <nav>
+                                <ul>
+                                    <li><a href="#services">خدماتنا</a></li>
+                                    <li><a href="#packs">الباقات</a></li>
+                                    <li><a href="#about">معلومات عنا</a></li>
+                                    <li><a href="#contact">اتصل بنا</a></li>
+                                    <li><a href="javascript:changeLanguage('en')">الإنجليزية</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+
+                    <main>
+                        <section id="hero">
+                            <h2>استرخي بأناقة مع تأجير الجاكوزي</h2>
+                            <p>التوصيل والتركيب مباشرة إلى منزلك في أبوظبي ودبي</p>
+                            <a href="#services" class="cta-button">استكشف خدماتنا</a>
+                        </section>
+
+                        <section id="gallery">
+                            <h3>معرض الصور</h3>
+                            <div class="gallery-item">
+                                <img src="images/jacuzzi-modern-apartment.jpg" alt="شقة حديثة مع جاكوزي وديكور أنيق">
+                                <p>اختبر الفخامة مع الجاكوزي في الشقق الحديثة.</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/jacuzzi-outdoor-setup.jpg" alt="إعداد جاكوزي خارجي مع ديكورات جميلة">
+                                <p>استمتع بالهواء الطلق مع إعداداتنا المزينة بشكل جميل.</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/jacuzzi-cozy-interior.jpg" alt="ديكور داخلي مريح مع جاكوزي وإضاءة دافئة">
+                                <p>اخلق أجواء مريحة مع الجاكوزي المضاءة بدفء.</p>
+                            </div>
+                        </section>
+
+                        <section id="services">
+                            <h3>خدماتنا</h3>
+                            <div class="service-item">
+                                <h4>مجموعة واسعة من الجاكوزي</h4>
+                                <p>اختر من بين أحجام ونماذج مختلفة لتلبية احتياجاتك.</p>
+                            </div>
+                            <div class="service-item">
+                                <h4>التوصيل إلى المنازل</h4>
+                                <p>نقوم بالتوصيل مباشرة إلى منزلك في أبوظبي ودبي.</p>
+                            </div>
+                            <div class="service-item">
+                                <h4>تركيب احترافي</h4>
+                                <p>فريقنا يضمن التركيب السريع والآمن.</p>
+                            </div>
+                        </section>
+
+                        <section id="packs">
+                            <h3>الباقات</h3>
+                            <div class="pack-item">
+                                <h4>الباقة الأولى</h4>
+                                <p>السعر: 369 درهم</p>
+                                <p>المدة: 24 ساعة</p>
+                                <p>استمتع بتجربة جاكوزي فاخرة ليوم كامل مع التوصيل والتركيب.</p>
+                            </div>
+                            <div class="pack-item">
+                                <h4>الباقة المميزة</h4>
+                                <p>السعر: 599 درهم</p>
+                                <p>المدة: 48 ساعة</p>
+                                <p>ارتقِ إلى باقتنا المميزة لتجربة استرخاء ممتدة.</p>
+                            </div>
+                            <div class="pack-item">
+                                <h4>باقة نهاية الأسبوع</h4>
+                                <p>السعر: 899 درهم</p>
+                                <p>المدة: 72 ساعة</p>
+                                <p>مثالية لقضاء عطلة نهاية الأسبوع في راحة منزلك.</p>
+                            </div>
+                        </section>
+
+                        <section id="about">
+                            <h3>معلومات عنا</h3>
+                            <p>تأجير الجاكوزي الفاخر هو مزودك الأمثل لتجارب الجاكوزي عالية الجودة في أبوظبي ودبي. مهمتنا هي توفير الاسترخاء والرفاهية مباشرة إلى منزلك بسهولة وراحة.</p>
+                        </section>
+
+                        <section id="contact">
+                            <h3>اتصل بنا</h3>
+                            <p>هل لديك أسئلة أو ترغب في حجز جاكوزي؟ تواصل معنا!</p>
+                            <form action="#" method="post">
+                                <label for="name">الاسم:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">البريد الإلكتروني:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <label for="message">الرسالة:</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+
+                                <button type="submit">إرسال الرسالة</button>
+                            </form>
+                        </section>
+                    </main>
+
+                    <footer>
+                        <p>&copy; 2024 تأجير الجاكوزي الفاخر. جميع الحقوق محفوظة.</p>
+                    </footer>
+                `;
+            } else {
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>
